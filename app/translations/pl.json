@@ -1,0 +1,9 @@
+{
+  "app.login.title": "Zaloguj się",
+  "app.login.create_new_account": "Stwórz nowe konto",
+  "app.login.mail": "Twój email",
+  "app.login.password": "Twoje hasło",  
+  "app.login.remember": "Zapamiętaj",
+  "app.login.forgot_password": "Zapomniałeś hasła",
+  "app.login.continue": "Kontyntynuj"
+}

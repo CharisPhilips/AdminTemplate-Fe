@@ -1,0 +1,9 @@
+{
+  "app.login.title": "Войти в систему",
+  "app.login.create_new_account": "Создать новый аккаунт",
+  "app.login.mail": "Ваш адрес электронной почты",
+  "app.login.password": "Ваш пароль",  
+  "app.login.remember": "Помните",
+  "app.login.forgot_password": "Забыли пароль",
+  "app.login.continue": "Продолжать"
+}

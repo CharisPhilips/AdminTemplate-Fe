@@ -1,0 +1,27 @@
+/*
+ *
+ * LanguageProvider reducer
+ *
+ */
+
+import { fromJS } from 'immutable';
+
+import { CHANGE_LOCALE } from './constants';
+import { DEFAULT_LOCALE } from '../../i18n'; // eslint-disable-line
+import db from 'kilcote-utils/localstorage'
+
+export const initialState = fromJS({
+  locale: db.get('LOCALTE', DEFAULT_LOCALE),
+});
+
+function languageProviderReducer(state = initialState, action) {
+  switch (action.type) {
+    case CHANGE_LOCALE:
+      db.save('LOCALTE', action.locale);
+      return state.set('locale', action.locale);
+    default:
+      return state;
+  }
+}
+
+export default languageProviderReducer;

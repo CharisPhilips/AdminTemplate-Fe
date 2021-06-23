@@ -1,0 +1,9 @@
+{
+  "app.login.title": "Přihlásit se",
+  "app.login.create_new_account": "Vytvořit nový účet",
+  "app.login.mail": "Tvůj e-mail",
+  "app.login.password": "Vaše heslo",  
+  "app.login.remember": "Pamatovat si",
+  "app.login.forgot_password": "Zapomenuté heslo",
+  "app.login.continue": "Pokračovat"
+}
